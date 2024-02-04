@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/c"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@drawable/frame_image_view"
+    android:backgroundTint="@color/colorPrimaryDark"
+
+    android:elevation="8dp">
+
+
+    <ImageView
+        android:id="@+id/imgFlag"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="4dp"
+
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/cont"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTotalCases"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvCountryNames" />
+
+    <TextView
+        android:id="@+id/tvTotalCases"
+        style="@style/LabelFontStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCountryNames"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+
+        android:layout_marginEnd="4dp"
+
+        android:layout_marginBottom="4dp"
+        android:layout_toEndOf="@id/imgFlag"
+        android:layout_toRightOf="@id/imgFlag"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgFlag"
+        app:layout_constraintTop_toBottomOf="@+id/tvCountryNames"
+        tools:text="cases" />
+
+    <TextView
+        android:id="@+id/tvCountryNames"
+        style="@style/LabelFontStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+
+        android:layout_marginEnd="4dp"
+        android:layout_toEndOf="@id/imgFlag"
+        android:layout_toRightOf="@id/imgFlag"
+        android:text="@string/india"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgFlag"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Country" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
