@@ -6,23 +6,30 @@
 <img src="https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/7aa1109e-56e7-46a7-b2d6-30f1ab0aa4d4" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 <img src="https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/7490acbe-eb49-474f-a86d-3b8490a6c583" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 <img src="https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/1555e5df-04cb-4b78-890c-55efc8657184" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<br>
+# App Structure:
+<img src="https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/4aabd39b-73d8-4e5a-b055-3dceb1d8fcde" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="400" height="200" />
+ 
+# Major highlights:
+  * MVVM Architecture
+  * Kotlin
+  * Retrofit
+  * Coroutines
+# The app has following Packages:
+  * Data : It contains all the data accessing and manipulating components.
+  * Ui   : It contains the View classes.
+  * Util : Utility classes.
+    
 # Details
-<h3>Overview</h3>
-<h4>
-Tracks the COVID-19 cases over global countries.
-<h4/>
-<h3>Countries</h3>
-<h4>
-Getting the details of each country.
-<h4/>
-<h3>Vaccine</h3>
-<h4>
-Display the vaccination centers at the specific Pin Code including other crucial information like address of the center, timings, name of the available vaccine, age limit, fees, etc. 
-<h4/>
-<h3>Symptoms</h3>
-* Diarhea
-* Dry cough
-* Fever
-* Nasal
-* Paining
-* Runny Nose
+  * Overview : Overview of the COVID-19 cases over global countries.
+  * Countries: Getting the details of each country.
+  * Vaccine  : Display the vaccination centers at the specific Pin Code
+  * Symptoms
+      * Diarhea
+      * Dry cough
+      * Fever
+      * Nasal
+      * Paining
+      * Runny Nose
+
+ 
