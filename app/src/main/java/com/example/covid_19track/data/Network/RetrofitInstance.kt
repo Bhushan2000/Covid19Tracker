@@ -1,18 +1,16 @@
 package com.example.covid_19track.data.Network
 
 import com.google.gson.GsonBuilder
-import okhttp3.Dispatcher
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import java.util.concurrent.TimeUnit
 
 object RetrofitInstance {
 
     // var BASE_URL: String = "https://corona.lmao.ninja"
 
-     var BASE_URL: String = "https://diseaes.sh"
+     var BASE_URL: String = "https://disease.sh"
 
     var URL: String = "https://cdn-api.co-vin.in"
 
