@@ -1,4 +1,4 @@
-# Screenshots
+# Screenshots:
 <br/><br/>
 <img src="https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/713a49fd-cd0f-4bb9-afca-603244c8a745" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 <img src="https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/5a12d608-b22c-4ff9-9277-a2d5864dca40" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
@@ -20,7 +20,7 @@
   * Ui   : It contains the View classes.
   * Util : Utility classes.
     
-# Details
+# Details:
   * Overview : Overview of the COVID-19 cases over global countries.
   * Countries: Getting the details of each country.
   * Vaccine  : Display the vaccination centers at the specific Pin Code
