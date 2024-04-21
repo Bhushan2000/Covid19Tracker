@@ -24,7 +24,7 @@
   * Overview : Overview of the COVID-19 cases over global countries.
   * Countries: Getting the details of each country.
   * Vaccine  : Display the vaccination centers at the specific Pin Code
-  * Symptoms
+  * Symptoms :
       * Diarhea
       * Dry cough
       * Fever
