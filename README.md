@@ -1,35 +1,91 @@
-# Screenshots:
-<br/><br/>
-<img src="https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/713a49fd-cd0f-4bb9-afca-603244c8a745" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
-<img src="https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/5a12d608-b22c-4ff9-9277-a2d5864dca40" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
-<img src="https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/08d9670a-59ba-48da-8726-80112dfb61f6" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
-<img src="https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/7aa1109e-56e7-46a7-b2d6-30f1ab0aa4d4" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
-<img src="https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/7490acbe-eb49-474f-a86d-3b8490a6c583" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
-<img src="https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/1555e5df-04cb-4b78-890c-55efc8657184" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
-<br>
-# App Structure:
-<img src="https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/4aabd39b-73d8-4e5a-b055-3dceb1d8fcde" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="400" height="200" />
- 
-# Major highlights:
-  * MVVM Architecture
-  * Kotlin
-  * Retrofit
-  * Coroutines
-# The app has following Packages:
-  * Data : It contains all the data accessing and manipulating components.
-  * Ui   : It contains the View classes.
-  * Util : Utility classes.
-    
-# Details:
-  * Overview : Overview of the COVID-19 cases over global countries.
-  * Countries: Getting the details of each country.
-  * Vaccine  : Display the vaccination centers at the specific Pin Code
-  * Symptoms :
-      * Diarhea
-      * Dry cough
-      * Fever
-      * Nasal
-      * Paining
-      * Runny Nose
+# COVID-19 Tracker
 
- 
+An Android application to track the latest COVID-19 statistics. This app provides real-time data on COVID-19 cases, recoveries, and deaths from around the world.
+
+## Features
+
+- **Real-Time Data**: Get the latest COVID-19 statistics.
+- **Global and Country-Specific Data**: View data for the entire world or specific countries.
+- **Graphical Representations**: Visualize data with charts and graphs.
+- **Search Functionality**: Search for specific countries to get detailed data.
+- **Data Refresh**: Pull-to-refresh to get the latest data updates.
+
+## Screenshots
+
+![Global Stats](screenshots/global_stats.png)
+![Country Stats](screenshots/country_stats.png)
+![Search Country](screenshots/search_country.png)
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+- Android Studio
+- Android SDK
+- Gradle
+
+### Installation
+
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/Bhushan2000/Covid19Tracker.git
+    ```
+
+2. **Open the project in Android Studio:**
+    - Open Android Studio.
+    - Select `Open an existing Android Studio project`.
+    - Navigate to the cloned repository and open it.
+
+3. **Build the project:**
+    - Click on the `Build` menu and select `Make Project`.
+
+4. **Run the app:**
+    - Connect an Android device or start an emulator.
+    - Click on the `Run` button or press `Shift + F10`.
+
+## Usage
+
+1. **View Global Statistics:**
+    - The home screen displays global COVID-19 statistics including total cases, recoveries, and deaths.
+
+2. **View Country-Specific Statistics:**
+    - Tap on a country from the list to view detailed statistics for that country.
+
+3. **Search for a Country:**
+    - Use the search bar to find and select a specific country.
+
+4. **Refresh Data:**
+    - Pull down on the statistics screen to refresh and get the latest data.
+
+## Built With
+
+- [Kotlin](https://kotlinlang.org/) - Programming language used
+- [Jetpack Compose](https://developer.android.com/jetpack/compose) - Modern toolkit for building native UI
+- [Retrofit](https://square.github.io/retrofit/) - HTTP client for API requests
+- [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Dependency injection library
+- [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) - Chart library for Android
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Data sourced from public APIs.
+- Inspiration from various COVID-19 tracking applications and dashboards.
+
+---
+
+Stay safe and healthy!
