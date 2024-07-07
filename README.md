@@ -6,15 +6,16 @@ An Android application to track the latest COVID-19 statistics. This app provide
 
 - **Real-Time Data**: Get the latest COVID-19 statistics.
 - **Global and Country-Specific Data**: View data for the entire world or specific countries.
-- **Graphical Representations**: Visualize data with charts and graphs.
 - **Search Functionality**: Search for specific countries to get detailed data.
 - **Data Refresh**: Pull-to-refresh to get the latest data updates.
 
 ## Screenshots
-
-![Global Stats](screenshots/global_stats.png)
-![Country Stats](screenshots/country_stats.png)
-![Search Country](screenshots/search_country.png)
+<img src='https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/8eace0fb-f53b-433d-b805-c15b4c57351d' height="400" width="200" />
+<img src='https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/d7956c62-f402-4268-8d51-924dbebc0513' height="400" width="200" />
+<img src='https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/26fcee37-29fc-4c24-b9b6-4135fa82229c' height="400" width="200" />
+<img src='https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/a8504c59-eb47-419e-9219-542921e07753' height="400" width="200" />
+<img src='https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/7a22661f-f751-4aab-89bf-fb7b0a05395b' height="400" width="200" />
+<img src='https://github.com/Bhushan2000/Covid19Tracker/assets/157300484/016b515c-c6b6-4d38-bfef-8f6324b41fdc' height="400" width="200" />
 
 ## Getting Started
 
@@ -62,10 +63,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 ## Built With
 
 - [Kotlin](https://kotlinlang.org/) - Programming language used
-- [Jetpack Compose](https://developer.android.com/jetpack/compose) - Modern toolkit for building native UI
 - [Retrofit](https://square.github.io/retrofit/) - HTTP client for API requests
-- [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Dependency injection library
-- [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) - Chart library for Android
 
 ## Contributing
 
